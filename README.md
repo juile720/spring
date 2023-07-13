@@ -1,3 +1,3 @@
 # spring
 
-#### [servlet](./mvc1/servlet.md)
+#### [mvc1](./mvc1.md)
