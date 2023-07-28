@@ -5,11 +5,13 @@
 ### 로깅
 - 운영에서는 system.out.println() 사용하지 않음
 - SLF4J의 logback
-- log.trace
-- log.debug (개발 server)
-- log.info (운영 server)
-- log.warn
-- log.error
+```
+log.trace
+log.debug (개발 server)
+log.info (운영 server)
+log.warn
+log.error
+```
 -> 설정은 application.properties에서
 - private Logger log = LoggerFactory.getLogger(getClass()); = (lombok사용시) @SLF4J
 
