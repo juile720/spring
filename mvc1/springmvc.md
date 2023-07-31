@@ -17,7 +17,7 @@ log.error
 
 ### @Controller VS @RestController
 - @Controller : 반환값이 String이면 뷰 이름으로 인식, 뷰를 찾고 뷰가 렌더링됨
-- @RestController : Http메시지 바디에 바로 입력
+- @RestController : Http메시지 바디에 바로 입력 <br><br>
 
 - HttpEntity : HTTP header, body정보를 편리하게 조회, view조회하지 않음
 - 비동기 통신 : 웹에서 화면전환 없이 이루어지는 동작들
