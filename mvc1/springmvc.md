@@ -25,4 +25,8 @@ log.error
 - @ModelAttribute : HTTP Body내용과 HTTP파라미터 값들을 Getter, Setter, 생성자를 통해 주입하기 위해 사용
 - @RequestBody : HTTP 요청의 본문이 그대로 전달, 자바객체로 변환
 - @ResponseBody : 자바객체를 HTTP요청의 바디내용으로 매핑하여 클라이언트로 전송
-
+- test코드 : @AfterEach(테스트 끝날 때 마다 실행 -> clear 해주는것이 좋음), given/when/then, 값을 설정해주고 만든 메서드 돌려서 나온 값이랑 정합성 비교(Assertions.assertThat)
+- @RequiredArgsConstructor : final이 붙은 값의 생성자를 만들어줌
+- @PostConstructor : 의존성 주입이 이루어진 후 초기화를 수행하는 메서드
+- PRG : POST/Redirect/Get
+- RedirectAttributes -> 쿼리파라미터 넣을 수 있음, 치환
