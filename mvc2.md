@@ -1,3 +1,3 @@
 mvc2
 
-#### [servlet](./mvc2/properties.md)
+#### [properties](./mvc2/properties.md)
